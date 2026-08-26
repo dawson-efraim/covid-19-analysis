@@ -36,8 +36,10 @@ class COVIDDataVisualizer:
         return fig
     
     def plot_top_countries(self, data: pd.DataFrame, top_n: int = 10, 
-                           title: str = f"Top {top_n} Countries by Total Cases",
+                           title: str = None,
                            figsize: tuple = None) -> plt.Figure:
+        if title is None:
+            title = f"Top {top_n} Countries by Total Cases"
         """Plot a bar chart of top countries by total cases."""
         if figsize is None:
             figsize = self.fig_size
