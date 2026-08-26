@@ -33,7 +33,3 @@ This project analyzes COVID-19 data using Python with an object-oriented program
 - Johns Hopkins University COVID-19 data
 - World Health Organization (WHO) data
 - Our World in Data
-
-## License
-
-MIT License
