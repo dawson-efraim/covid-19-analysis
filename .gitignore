@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (keep output/plots for README showcase)
+data/
+src/data/
+src/output/
+
+# Keep output/plots for README
+!output/
+!output/plots/

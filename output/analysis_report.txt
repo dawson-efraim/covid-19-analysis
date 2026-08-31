@@ -1,0 +1,13 @@
+COVID-19 Data Analysis Report
+========================================
+
+Data loaded: 289 rows, 1147 columns
+
+Summary Statistics:
+  total_cases: 140385296.139419
+  max_daily_increase: 73276.0
+  days_tracked: 289
+
+Visualizations generated:
+  - output/plots/time_series.png
+  - output/plots/growth_rate.png
